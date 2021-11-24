@@ -1,0 +1,2561 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#02C2FF"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="12dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/fond"
+                android:backgroundTint="#AD94A8A6"
+                android:orientation="vertical"
+                android:paddingStart="20dp"
+                android:paddingTop="12dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Samarkand"
+                    android:textColor="@color/black"
+                    android:textStyle="italic"
+                    android:textSize="20sp"/>
+
+                <HorizontalScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dp"
+                    android:backgroundTint="#8ACFF4FF"
+                    android:padding="4dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="12dp"
+                        android:orientation="horizontal">
+
+                        <com.google.android.material.card.MaterialCardView
+                            android:id="@+id/btn_1"
+                            android:layout_width="200dp"
+                            android:layout_height="200dp"
+                            android:layout_margin="8dp"
+                            android:backgroundTint="#2000BCD4"
+                            android:clickable="true"
+                            android:elevation="10dp"
+                            android:onClick="Clic"
+                            android:focusable="true"
+                            android:foreground="?selectableItemBackground"
+                            app:cardCornerRadius="50dp">
+
+                            <ImageView
+                                android:layout_width="200dp"
+                                android:layout_height="150dp"
+                                android:src="@drawable/registon" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center|bottom"
+                                android:gravity="center"
+                                android:text="REGISTON"
+                                android:textColor="@color/white"
+                                android:textSize="20sp"
+                                android:textStyle="italic" />
+                        </com.google.android.material.card.MaterialCardView>
+
+                        <com.google.android.material.card.MaterialCardView
+                            android:id="@+id/btn_2"
+                            android:onClick="Clic"
+                            android:layout_width="200dp"
+                            android:layout_height="200dp"
+                            android:layout_margin="8dp"
+                            android:backgroundTint="#2000BCD4"
+                            android:clickable="true"
+                            android:elevation="10dp"
+                            android:focusable="true"
+                            android:foreground="?selectableItemBackground"
+                            app:cardCornerRadius="50dp">
+
+                            <ImageView
+                                android:layout_width="200dp"
+                                android:layout_height="150dp"
+                                android:src="@drawable/zinda"
+                                android:scaleType="centerCrop"/>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center|bottom"
+                                android:gravity="center"
+                                android:text="Shohi Zinda "
+                                android:textColor="@color/white"
+                                android:textSize="20sp"
+                                android:textStyle="italic" />
+                        </com.google.android.material.card.MaterialCardView>
+
+                        <com.google.android.material.card.MaterialCardView
+                            android:id="@+id/btn_3"
+                            android:onClick="Clic"
+                            android:layout_width="200dp"
+                            android:layout_height="200dp"
+                            android:layout_margin="8dp"
+                            android:backgroundTint="#2000BCD4"
+                            android:clickable="true"
+                            android:elevation="10dp"
+                            android:focusable="true"
+                            android:foreground="?selectableItemBackground"
+                            app:cardCornerRadius="50dp">
+
+                            <ImageView
+                                android:layout_width="200dp"
+                                android:layout_height="150dp"
+                                android:src="@drawable/amir_maqbarasi"
+                                android:scaleType="centerCrop"/>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center|bottom"
+                                android:gravity="center"
+                                android:text="Go‘ri-Amir \n maqbarasi"
+                                android:textColor="@color/white"
+                                android:textSize="20sp"
+                                android:textStyle="italic" />
+                        </com.google.android.material.card.MaterialCardView>
+
+                        <com.google.android.material.card.MaterialCardView
+                            android:id="@+id/btn_4"
+                            android:onClick="Clic"
+                            android:layout_width="200dp"
+                            android:layout_height="200dp"
+                            android:layout_margin="8dp"
+                            android:backgroundTint="#2000BCD4"
+                            android:clickable="true"
+                            android:elevation="10dp"
+                            android:focusable="true"
+                            android:foreground="?selectableItemBackground"
+                            app:cardCornerRadius="50dp">
+
+                            <ImageView
+                                android:layout_width="200dp"
+                                android:layout_height="150dp"
+                                android:src="@drawable/bibixonim"
+                                android:scaleType="centerCrop"/>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center|bottom"
+                                android:gravity="center"
+                                android:text="Bibixonim jome masjidi"
+                                android:textColor="@color/white"
+                                android:textSize="20sp"
+                                android:textStyle="italic" />
+                        </com.google.android.material.card.MaterialCardView>
+
+                        <com.google.android.material.card.MaterialCardView
+                            android:id="@+id/btn_5"
+                            android:onClick="Clic"
+                            android:layout_width="200dp"
+                            android:layout_height="200dp"
+                            android:layout_margin="8dp"
+                            android:backgroundTint="#2000BCD4"
+                            android:clickable="true"
+                            android:elevation="10dp"
+                            android:focusable="true"
+                            android:foreground="?selectableItemBackground"
+                            app:cardCornerRadius="50dp">
+
+                            <ImageView
+                                android:layout_width="200dp"
+                                android:layout_height="150dp"
+                                android:src="@drawable/xazrati_donyor"
+                                android:scaleType="centerCrop" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center|bottom"
+                                android:gravity="center"
+                                android:text="Hazrati Doniyor ziyoratgohi"
+                                android:textColor="@color/white"
+                                android:textSize="20sp"
+                                android:textStyle="italic" />
+                        </com.google.android.material.card.MaterialCardView>
+
+                        <com.google.android.material.card.MaterialCardView
+                            android:id="@+id/btn_6"
+                            android:onClick="Clic"
+                            android:layout_width="200dp"
+                            android:layout_height="200dp"
+                            android:layout_margin="8dp"
+                            android:backgroundTint="#2000BCD4"
+                            android:clickable="true"
+                            android:elevation="10dp"
+                            android:focusable="true"
+                            android:foreground="?selectableItemBackground"
+                            app:cardCornerRadius="50dp">
+
+                            <ImageView
+                                android:layout_width="200dp"
+                                android:layout_height="150dp"
+                                android:src="@drawable/albuxoriy"
+                                android:scaleType="centerCrop"/>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center|bottom"
+                                android:gravity="center"
+                                android:text="Imom al-Buxoriy maqbarasi"
+                                android:textColor="@color/white"
+                                android:textSize="20sp"
+                                android:textStyle="italic" />
+                        </com.google.android.material.card.MaterialCardView>
+
+                        <com.google.android.material.card.MaterialCardView
+                            android:id="@+id/btn_7"
+                            android:onClick="Clic"
+                            android:layout_width="200dp"
+                            android:layout_height="200dp"
+                            android:layout_margin="8dp"
+                            android:backgroundTint="#2000BCD4"
+                            android:clickable="true"
+                            android:elevation="10dp"
+                            android:focusable="true"
+                            android:foreground="?selectableItemBackground"
+                            app:cardCornerRadius="50dp">
+
+                            <ImageView
+                                android:layout_width="200dp"
+                                android:layout_height="150dp"
+                                android:src="@drawable/ulugbek"
+                                android:scaleType="centerCrop"/>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center|bottom"
+                                android:gravity="center"
+                                android:text="Ulug‘bek      Rasadxonasi"
+                                android:textColor="@color/white"
+                                android:textSize="20sp"
+                                android:textStyle="italic" />
+                        </com.google.android.material.card.MaterialCardView>
+                    </LinearLayout>
+                </HorizontalScrollView>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/fond"
+                android:backgroundTint="#AD94A8A6"
+                android:orientation="vertical"
+                android:paddingStart="20dp"
+                android:layout_marginBottom="8dp"
+                android:layout_marginTop="8dp"
+                android:paddingTop="12dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Toshkent"
+                    android:textColor="@color/black"
+                    android:textStyle="italic"
+                    android:textSize="20sp"/>
+
+                <HorizontalScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dp"
+                    android:backgroundTint="#8ACFF4FF"
+                    android:padding="4dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="12dp"
+                        android:orientation="horizontal">
+
+                        <com.google.android.material.card.MaterialCardView
+                            android:id="@+id/btn_2_1"
+                            android:layout_width="200dp"
+                            android:layout_height="200dp"
+                            android:onClick="Clic"
+                            android:layout_margin="8dp"
+                            android:backgroundTint="#2000BCD4"
+                            android:clickable="true"
+                            android:elevation="10dp"
+                            android:focusable="true"
+                            android:foreground="?selectableItemBackground"
+                            app:cardCornerRadius="50dp">
+
+                            <ImageView
+                                android:layout_width="200dp"
+                                android:layout_height="150dp"
+                                android:src="@drawable/zang_ota"
+                                android:scaleType="centerCrop"/>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center|bottom"
+                                android:gravity="center"
+                                android:text="Zangiota"
+                                android:textColor="@color/white"
+                                android:textSize="20sp"
+                                android:textStyle="italic" />
+                        </com.google.android.material.card.MaterialCardView>
+
+                        <com.google.android.material.card.MaterialCardView
+                            android:id="@+id/btn_2_2"
+                            android:onClick="Clic"
+                            android:layout_width="200dp"
+                            android:layout_height="200dp"
+                            android:layout_margin="8dp"
+                            android:backgroundTint="#2000BCD4"
+                            android:clickable="true"
+                            android:elevation="10dp"
+                            android:focusable="true"
+                            android:foreground="?selectableItemBackground"
+                            app:cardCornerRadius="50dp">
+
+                            <ImageView
+                                android:layout_width="200dp"
+                                android:layout_height="150dp"
+                                android:src="@drawable/qizil_mozor"
+                                android:scaleType="centerCrop"/>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center|bottom"
+                                android:gravity="center"
+                                android:text="Qizil mozor"
+                                android:textColor="@color/white"
+                                android:textSize="20sp"
+                                android:textStyle="italic" />
+                        </com.google.android.material.card.MaterialCardView>
+
+                        <com.google.android.material.card.MaterialCardView
+                            android:id="@+id/btn_2_3"
+                            android:onClick="Clic"
+                            android:layout_width="200dp"
+                            android:layout_height="200dp"
+                            android:layout_margin="8dp"
+                            android:backgroundTint="#2000BCD4"
+                            android:clickable="true"
+                            android:elevation="10dp"
+                            android:focusable="true"
+                            android:foreground="?selectableItemBackground"
+                            app:cardCornerRadius="50dp">
+
+                            <ImageView
+                                android:layout_width="200dp"
+                                android:layout_height="150dp"
+                                android:src="@drawable/xazrati_ali_buva"
+                                android:scaleType="centerCrop"/>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center|bottom"
+                                android:gravity="center"
+                                android:text="Xazrat Ali Buva"
+                                android:textColor="@color/white"
+                                android:textSize="20sp"
+                                android:textStyle="italic" />
+                        </com.google.android.material.card.MaterialCardView>
+
+                        <com.google.android.material.card.MaterialCardView
+                            android:id="@+id/btn_2_4"
+                            android:onClick="Clic"
+                            android:layout_width="200dp"
+                            android:layout_height="200dp"
+                            android:layout_margin="8dp"
+                            android:backgroundTint="#2000BCD4"
+                            android:clickable="true"
+                            android:elevation="10dp"
+                            android:focusable="true"
+                            android:foreground="?selectableItemBackground"
+                            app:cardCornerRadius="50dp">
+
+                            <ImageView
+                                android:layout_width="200dp"
+                                android:layout_height="150dp"
+                                android:src="@drawable/parpi_ota"
+                                android:scaleType="centerCrop"/>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center|bottom"
+                                android:gravity="center"
+                                android:text="Parpi ota"
+                                android:textColor="@color/white"
+                                android:textSize="20sp"
+                                android:textStyle="italic" />
+                        </com.google.android.material.card.MaterialCardView>
+
+                        <com.google.android.material.card.MaterialCardView
+                            android:id="@+id/btn_2_5"
+                            android:onClick="Clic"
+                            android:layout_width="200dp"
+                            android:layout_height="200dp"
+                            android:layout_margin="8dp"
+                            android:backgroundTint="#2000BCD4"
+                            android:clickable="true"
+                            android:elevation="10dp"
+                            android:focusable="true"
+                            android:foreground="?selectableItemBackground"
+                            app:cardCornerRadius="50dp">
+
+                            <ImageView
+                                android:layout_width="200dp"
+                                android:layout_height="150dp"
+                                android:src="@drawable/qirq_qiz" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center|bottom"
+                                android:gravity="center"
+                                android:text="Qirq qiz"
+                                android:textColor="@color/white"
+                                android:textSize="20sp"
+                                android:textStyle="italic" />
+                        </com.google.android.material.card.MaterialCardView>
+
+                        <com.google.android.material.card.MaterialCardView
+                            android:id="@+id/btn_2_6"
+                            android:onClick="Clic"
+                            android:layout_width="200dp"
+                            android:layout_height="200dp"
+                            android:layout_margin="8dp"
+                            android:backgroundTint="#2000BCD4"
+                            android:clickable="true"
+                            android:elevation="10dp"
+                            android:focusable="true"
+                            android:foreground="?selectableItemBackground"
+                            app:cardCornerRadius="50dp">
+
+                            <ImageView
+                                android:layout_width="200dp"
+                                android:layout_height="150dp"
+                                android:src="@drawable/zarkent" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center|bottom"
+                                android:gravity="center"
+                                android:text="Zarkent ota"
+                                android:textColor="@color/white"
+                                android:textSize="20sp"
+                                android:textStyle="italic" />
+                        </com.google.android.material.card.MaterialCardView>
+
+                        <com.google.android.material.card.MaterialCardView
+                            android:id="@+id/btn_2_7"
+                            android:onClick="Clic"
+                            android:layout_width="200dp"
+                            android:layout_height="200dp"
+                            android:layout_margin="8dp"
+                            android:backgroundTint="#2000BCD4"
+                            android:clickable="true"
+                            android:elevation="10dp"
+                            android:focusable="true"
+                            android:foreground="?selectableItemBackground"
+                            app:cardCornerRadius="50dp">
+
+                            <ImageView
+                                android:layout_width="200dp"
+                                android:layout_height="150dp"
+                                android:src="@drawable/anbar_bibi" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center|bottom"
+                                android:gravity="center"
+                                android:text="Anbar bibi"
+                                android:textColor="@color/white"
+                                android:textSize="20sp"
+                                android:textStyle="italic" />
+                        </com.google.android.material.card.MaterialCardView>
+                    </LinearLayout>
+                </HorizontalScrollView>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/fond"
+                android:backgroundTint="#AD94A8A6"
+                android:orientation="vertical"
+                android:paddingStart="20dp"
+                android:paddingTop="12dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Buxoro"
+                    android:textColor="@color/black"
+                    android:textStyle="italic"
+                    android:textSize="20sp"/>
+
+                <HorizontalScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dp"
+                    android:backgroundTint="#8ACFF4FF"
+                    android:padding="4dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="12dp"
+                        android:orientation="horizontal">
+
+                        <com.google.android.material.card.MaterialCardView
+                            android:id="@+id/btn_3_1"
+                            android:onClick="Clic"
+                            android:layout_width="200dp"
+                            android:layout_height="200dp"
+                            android:layout_margin="8dp"
+                            android:backgroundTint="#2000BCD4"
+                            android:clickable="true"
+                            android:elevation="10dp"
+                            android:focusable="true"
+                            android:foreground="?selectableItemBackground"
+                            app:cardCornerRadius="50dp">
+
+                            <ImageView
+                                android:layout_width="200dp"
+                                android:layout_height="150dp"
+                                android:src="@drawable/poi_kalon"
+                                android:scaleType="centerCrop"/>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center|bottom"
+                                android:gravity="center"
+                                android:text="Poi-Kalon"
+                                android:textColor="@color/white"
+                                android:textSize="20sp"
+                                android:textStyle="italic" />
+                        </com.google.android.material.card.MaterialCardView>
+
+                        <com.google.android.material.card.MaterialCardView
+                            android:id="@+id/btn_3_2"
+                            android:onClick="Clic"
+                            android:layout_width="200dp"
+                            android:layout_height="200dp"
+                            android:layout_margin="8dp"
+                            android:backgroundTint="#2000BCD4"
+                            android:clickable="true"
+                            android:elevation="10dp"
+                            android:focusable="true"
+                            android:foreground="?selectableItemBackground"
+                            app:cardCornerRadius="50dp">
+
+                            <ImageView
+                                android:layout_width="200dp"
+                                android:layout_height="150dp"
+                                android:src="@drawable/ark"
+                                android:scaleType="centerCrop"/>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center|bottom"
+                                android:gravity="center"
+                                android:text="Ark qalʼasi"
+                                android:textColor="@color/white"
+                                android:textSize="20sp"
+                                android:textStyle="italic" />
+                        </com.google.android.material.card.MaterialCardView>
+
+                        <com.google.android.material.card.MaterialCardView
+                            android:id="@+id/btn_3_3"
+                            android:onClick="Clic"
+                            android:layout_width="200dp"
+                            android:layout_height="200dp"
+                            android:layout_margin="8dp"
+                            android:backgroundTint="#2000BCD4"
+                            android:clickable="true"
+                            android:elevation="10dp"
+                            android:focusable="true"
+                            android:foreground="?selectableItemBackground"
+                            app:cardCornerRadius="50dp">
+
+                            <ImageView
+                                android:layout_width="200dp"
+                                android:layout_height="150dp"
+                                android:src="@drawable/somoniylar"
+                                android:scaleType="centerCrop"/>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center|bottom"
+                                android:gravity="center"
+                                android:text="Somoniylar"
+                                android:textColor="@color/white"
+                                android:textSize="20sp"
+                                android:textStyle="italic" />
+                        </com.google.android.material.card.MaterialCardView>
+
+                        <com.google.android.material.card.MaterialCardView
+                            android:id="@+id/btn_3_4"
+                            android:onClick="Clic"
+                            android:layout_width="200dp"
+                            android:layout_height="200dp"
+                            android:layout_margin="8dp"
+                            android:backgroundTint="#2000BCD4"
+                            android:clickable="true"
+                            android:elevation="10dp"
+                            android:focusable="true"
+                            android:foreground="?selectableItemBackground"
+                            app:cardCornerRadius="50dp">
+
+                            <ImageView
+                                android:layout_width="200dp"
+                                android:layout_height="150dp"
+                                android:src="@drawable/chashma_ayub"
+                                android:scaleType="centerCrop"/>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center|bottom"
+                                android:gravity="center"
+                                android:text="Chashmai Ayub"
+                                android:textColor="@color/white"
+                                android:textSize="20sp"
+                                android:textStyle="italic" />
+                        </com.google.android.material.card.MaterialCardView>
+
+                        <com.google.android.material.card.MaterialCardView
+                            android:id="@+id/btn_3_5"
+                            android:onClick="Clic"
+                            android:layout_width="200dp"
+                            android:layout_height="200dp"
+                            android:layout_margin="8dp"
+                            android:backgroundTint="#2000BCD4"
+                            android:clickable="true"
+                            android:elevation="10dp"
+                            android:focusable="true"
+                            android:foreground="?selectableItemBackground"
+                            app:cardCornerRadius="50dp">
+
+                            <ImageView
+                                android:layout_width="200dp"
+                                android:layout_height="150dp"
+                                android:src="@drawable/magaki_attari"
+                                android:scaleType="centerCrop"/>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center|bottom"
+                                android:gravity="center"
+                                android:text="Magaki-Attari"
+                                android:textColor="@color/white"
+                                android:textSize="20sp"
+                                android:textStyle="italic" />
+                        </com.google.android.material.card.MaterialCardView>
+
+                        <com.google.android.material.card.MaterialCardView
+                            android:id="@+id/btn_3_6"
+                            android:onClick="Clic"
+                            android:layout_width="200dp"
+                            android:layout_height="200dp"
+                            android:layout_margin="8dp"
+                            android:backgroundTint="#2000BCD4"
+                            android:clickable="true"
+                            android:elevation="10dp"
+                            android:focusable="true"
+                            android:foreground="?selectableItemBackground"
+                            app:cardCornerRadius="50dp">
+
+                            <ImageView
+                                android:layout_width="200dp"
+                                android:layout_height="150dp"
+                                android:src="@drawable/mirzo_ulugbek"
+                                android:scaleType="centerCrop"/>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center|bottom"
+                                android:gravity="center"
+                                android:text="Mirzo Ulug‘bek"
+                                android:textColor="@color/white"
+                                android:textSize="20sp"
+                                android:textStyle="italic" />
+                        </com.google.android.material.card.MaterialCardView>
+
+                        <com.google.android.material.card.MaterialCardView
+                            android:id="@+id/btn_3_7"
+                            android:onClick="Clic"
+                            android:layout_width="200dp"
+                            android:layout_height="200dp"
+                            android:layout_margin="8dp"
+                            android:backgroundTint="#2000BCD4"
+                            android:clickable="true"
+                            android:elevation="10dp"
+                            android:focusable="true"
+                            android:foreground="?selectableItemBackground"
+                            app:cardCornerRadius="50dp">
+
+                            <ImageView
+                                android:layout_width="200dp"
+                                android:layout_height="150dp"
+                                android:src="@drawable/mir"
+                                android:scaleType="centerCrop"/>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center|bottom"
+                                android:gravity="center"
+                                android:text="Miri-Arab"
+                                android:textColor="@color/white"
+                                android:textSize="20sp"
+                                android:textStyle="italic" />
+                        </com.google.android.material.card.MaterialCardView>
+                    </LinearLayout>
+                </HorizontalScrollView>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/fond"
+                android:backgroundTint="#AD94A8A6"
+                android:orientation="vertical"
+                android:paddingStart="20dp"
+                android:layout_marginBottom="8dp"
+                android:layout_marginTop="8dp"
+                android:paddingTop="12dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Xorazim"
+                    android:textColor="@color/black"
+                    android:textStyle="italic"
+                    android:textSize="20sp"/>
+
+                <HorizontalScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dp"
+                    android:backgroundTint="#8ACFF4FF"
+                    android:padding="4dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="12dp"
+                        android:orientation="horizontal">
+
+                        <com.google.android.material.card.MaterialCardView
+                            android:id="@+id/btn_4_1"
+                            android:onClick="Clic"
+                            android:layout_width="200dp"
+                            android:layout_height="200dp"
+                            android:layout_margin="8dp"
+                            android:backgroundTint="#2000BCD4"
+                            android:clickable="true"
+                            android:elevation="10dp"
+                            android:focusable="true"
+                            android:foreground="?selectableItemBackground"
+                            app:cardCornerRadius="50dp">
+
+                            <ImageView
+                                android:layout_width="200dp"
+                                android:layout_height="150dp"
+                                android:src="@drawable/ichan_qala"
+                                android:scaleType="centerCrop"/>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center|bottom"
+                                android:gravity="center"
+                                android:text="Ichan-Qal’a"
+                                android:textColor="@color/white"
+                                android:textSize="20sp"
+                                android:textStyle="italic" />
+                        </com.google.android.material.card.MaterialCardView>
+
+                        <com.google.android.material.card.MaterialCardView
+                            android:id="@+id/btn_4_2"
+                            android:onClick="Clic"
+                            android:layout_width="200dp"
+                            android:layout_height="200dp"
+                            android:layout_margin="8dp"
+                            android:backgroundTint="#2000BCD4"
+                            android:clickable="true"
+                            android:elevation="10dp"
+                            android:focusable="true"
+                            android:foreground="?selectableItemBackground"
+                            app:cardCornerRadius="50dp">
+
+                            <ImageView
+                                android:layout_width="200dp"
+                                android:layout_height="150dp"
+                                android:src="@drawable/amirxon"
+                                android:scaleType="centerCrop"/>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center|bottom"
+                                android:gravity="center"
+                                android:text="AmirxonMadrasasi"
+                                android:textColor="@color/white"
+                                android:textSize="20sp"
+                                android:textStyle="italic" />
+                        </com.google.android.material.card.MaterialCardView>
+
+                        <com.google.android.material.card.MaterialCardView
+                            android:id="@+id/btn_4_3"
+                            android:onClick="Clic"
+                            android:layout_width="200dp"
+                            android:layout_height="200dp"
+                            android:layout_margin="8dp"
+                            android:backgroundTint="#2000BCD4"
+                            android:clickable="true"
+                            android:elevation="10dp"
+                            android:focusable="true"
+                            android:foreground="?selectableItemBackground"
+                            app:cardCornerRadius="50dp">
+
+                            <ImageView
+                                android:layout_width="200dp"
+                                android:layout_height="150dp"
+                                android:src="@drawable/pahlavon_mahmud"
+                                android:scaleType="centerCrop"/>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center|bottom"
+                                android:gravity="center"
+                                android:text="PahlavonMahmudMaqbarasi"
+                                android:textColor="@color/white"
+                                android:textSize="20sp"
+                                android:textStyle="italic" />
+                        </com.google.android.material.card.MaterialCardView>
+
+                        <com.google.android.material.card.MaterialCardView
+                            android:id="@+id/btn_4_4"
+                            android:onClick="Clic"
+                            android:layout_width="200dp"
+                            android:layout_height="200dp"
+                            android:layout_margin="8dp"
+                            android:backgroundTint="#2000BCD4"
+                            android:clickable="true"
+                            android:elevation="10dp"
+                            android:focusable="true"
+                            android:foreground="?selectableItemBackground"
+                            app:cardCornerRadius="50dp">
+
+                            <ImageView
+                                android:layout_width="200dp"
+                                android:layout_height="150dp"
+                                android:src="@drawable/nurullaboy"
+                                android:scaleType="centerCrop"/>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center|bottom"
+                                android:gravity="center"
+                                android:text="NurullaboySaroyi"
+                                android:textColor="@color/white"
+                                android:textSize="20sp"
+                                android:textStyle="italic" />
+                        </com.google.android.material.card.MaterialCardView>
+
+                        <com.google.android.material.card.MaterialCardView
+                            android:id="@+id/btn_4_5"
+                            android:onClick="Clic"
+                            android:layout_width="200dp"
+                            android:layout_height="200dp"
+                            android:layout_margin="8dp"
+                            android:backgroundTint="#2000BCD4"
+                            android:clickable="true"
+                            android:elevation="10dp"
+                            android:focusable="true"
+                            android:foreground="?selectableItemBackground"
+                            app:cardCornerRadius="50dp">
+
+                            <ImageView
+                                android:layout_width="200dp"
+                                android:layout_height="150dp"
+                                android:src="@drawable/yoshlar_koli"
+                                android:scaleType="centerCrop"/>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center|bottom"
+                                android:gravity="center"
+                                android:text="Yoshlar ko’li"
+                                android:textColor="@color/white"
+                                android:textSize="20sp"
+                                android:textStyle="italic" />
+                        </com.google.android.material.card.MaterialCardView>
+
+                        <com.google.android.material.card.MaterialCardView
+                            android:id="@+id/btn_4_6"
+                            android:onClick="Clic"
+                            android:layout_width="200dp"
+                            android:layout_height="200dp"
+                            android:layout_margin="8dp"
+                            android:backgroundTint="#2000BCD4"
+                            android:clickable="true"
+                            android:elevation="10dp"
+                            android:focusable="true"
+                            android:foreground="?selectableItemBackground"
+                            app:cardCornerRadius="50dp">
+
+                            <ImageView
+                                android:layout_width="200dp"
+                                android:layout_height="150dp"
+                                android:src="@drawable/sulaymon_qala"
+                                android:scaleType="centerCrop"/>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center|bottom"
+                                android:gravity="center"
+                                android:text="Sulaymon qal’a"
+                                android:textColor="@color/white"
+                                android:textSize="20sp"
+                                android:textStyle="italic" />
+                        </com.google.android.material.card.MaterialCardView>
+
+                        <com.google.android.material.card.MaterialCardView
+                            android:id="@+id/btn_4_7"
+                            android:onClick="Clic"
+                            android:layout_width="200dp"
+                            android:layout_height="200dp"
+                            android:layout_margin="8dp"
+                            android:backgroundTint="#2000BCD4"
+                            android:clickable="true"
+                            android:elevation="10dp"
+                            android:focusable="true"
+                            android:foreground="?selectableItemBackground"
+                            app:cardCornerRadius="50dp">
+
+                            <ImageView
+                                android:layout_width="200dp"
+                                android:layout_height="150dp"
+                                android:src="@drawable/avesto"
+                                android:scaleType="centerCrop"/>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center|bottom"
+                                android:gravity="center"
+                                android:text="AvestoMonumenti"
+                                android:textColor="@color/white"
+                                android:textSize="20sp"
+                                android:textStyle="italic" />
+                        </com.google.android.material.card.MaterialCardView>
+                    </LinearLayout>
+                </HorizontalScrollView>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/fond"
+                android:backgroundTint="#AD94A8A6"
+                android:orientation="vertical"
+                android:paddingStart="20dp"
+                android:paddingTop="12dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Surxandaryo"
+                    android:textColor="@color/black"
+                    android:textStyle="italic"
+                    android:textSize="20sp"/>
+
+                <HorizontalScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dp"
+                    android:backgroundTint="#8ACFF4FF"
+                    android:padding="4dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="12dp"
+                        android:orientation="horizontal">
+
+                        <com.google.android.material.card.MaterialCardView
+                            android:id="@+id/btn_5_1"
+                            android:onClick="Clic"
+                            android:layout_width="200dp"
+                            android:layout_height="200dp"
+                            android:layout_margin="8dp"
+                            android:backgroundTint="#2000BCD4"
+                            android:clickable="true"
+                            android:elevation="10dp"
+                            android:focusable="true"
+                            android:foreground="?selectableItemBackground"
+                            app:cardCornerRadius="50dp">
+
+                            <ImageView
+                                android:layout_width="200dp"
+                                android:layout_height="150dp"
+                                android:src="@drawable/al_hakim"
+                                android:scaleType="centerCrop"/>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center|bottom"
+                                android:gravity="center"
+                                android:text="TermiziyAl-Hakim"
+                                android:textColor="@color/white"
+                                android:textSize="20sp"
+                                android:textStyle="italic" />
+                        </com.google.android.material.card.MaterialCardView>
+
+                        <com.google.android.material.card.MaterialCardView
+                            android:id="@+id/btn_5_2"
+                            android:onClick="Clic"
+                            android:layout_width="200dp"
+                            android:layout_height="200dp"
+                            android:layout_margin="8dp"
+                            android:backgroundTint="#2000BCD4"
+                            android:clickable="true"
+                            android:elevation="10dp"
+                            android:focusable="true"
+                            android:foreground="?selectableItemBackground"
+                            app:cardCornerRadius="50dp">
+
+                            <ImageView
+                                android:layout_width="200dp"
+                                android:layout_height="150dp"
+                                android:src="@drawable/sulton_saodat"
+                                android:scaleType="centerCrop"/>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center|bottom"
+                                android:gravity="center"
+                                android:text="Sulton Saodat"
+                                android:textColor="@color/white"
+                                android:textSize="20sp"
+                                android:textStyle="italic" />
+                        </com.google.android.material.card.MaterialCardView>
+
+                        <com.google.android.material.card.MaterialCardView
+                            android:id="@+id/btn_5_3"
+                            android:onClick="Clic"
+                            android:layout_width="200dp"
+                            android:layout_height="200dp"
+                            android:layout_margin="8dp"
+                            android:backgroundTint="#2000BCD4"
+                            android:clickable="true"
+                            android:elevation="10dp"
+                            android:focusable="true"
+                            android:foreground="?selectableItemBackground"
+                            app:cardCornerRadius="50dp">
+
+                            <ImageView
+                                android:layout_width="200dp"
+                                android:layout_height="150dp"
+                                android:src="@drawable/termiziy_maq"
+                                android:scaleType="centerCrop"/>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center|bottom"
+                                android:gravity="center"
+                                android:text="TermiziyMaqbarasi"
+                                android:textColor="@color/white"
+                                android:textSize="20sp"
+                                android:textStyle="italic" />
+                        </com.google.android.material.card.MaterialCardView>
+
+                        <com.google.android.material.card.MaterialCardView
+                            android:id="@+id/btn_5_4"
+                            android:onClick="Clic"
+                            android:layout_width="200dp"
+                            android:layout_height="200dp"
+                            android:layout_margin="8dp"
+                            android:backgroundTint="#2000BCD4"
+                            android:clickable="true"
+                            android:elevation="10dp"
+                            android:focusable="true"
+                            android:foreground="?selectableItemBackground"
+                            app:cardCornerRadius="50dp">
+
+                            <ImageView
+                                android:layout_width="200dp"
+                                android:layout_height="150dp"
+                                android:src="@drawable/fayoz_tepa"
+                                android:scaleType="centerCrop"/>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center|bottom"
+                                android:gravity="center"
+                                android:text="Fayoztepa"
+                                android:textColor="@color/white"
+                                android:textSize="20sp"
+                                android:textStyle="italic" />
+                        </com.google.android.material.card.MaterialCardView>
+
+                        <com.google.android.material.card.MaterialCardView
+                            android:id="@+id/btn_5_5"
+                            android:onClick="Clic"
+                            android:layout_width="200dp"
+                            android:layout_height="200dp"
+                            android:layout_margin="8dp"
+                            android:backgroundTint="#2000BCD4"
+                            android:clickable="true"
+                            android:elevation="10dp"
+                            android:focusable="true"
+                            android:foreground="?selectableItemBackground"
+                            app:cardCornerRadius="50dp">
+
+                            <ImageView
+                                android:layout_width="200dp"
+                                android:layout_height="150dp"
+                                android:src="@drawable/qirq_qiz_surx"
+                                android:scaleType="centerCrop"/>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center|bottom"
+                                android:gravity="center"
+                                android:text="Qirqqiz qalʼasi"
+                                android:textColor="@color/white"
+                                android:textSize="20sp"
+                                android:textStyle="italic" />
+                        </com.google.android.material.card.MaterialCardView>
+
+                    </LinearLayout>
+                </HorizontalScrollView>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/fond"
+                android:backgroundTint="#AD94A8A6"
+                android:orientation="vertical"
+                android:paddingStart="20dp"
+                android:layout_marginBottom="8dp"
+                android:layout_marginTop="8dp"
+                android:paddingTop="12dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Andijon"
+                    android:textColor="@color/black"
+                    android:textStyle="italic"
+                    android:textSize="20sp"/>
+
+                <HorizontalScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dp"
+                    android:backgroundTint="#8ACFF4FF"
+                    android:padding="4dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="12dp"
+                        android:orientation="horizontal">
+
+                        <com.google.android.material.card.MaterialCardView
+                            android:id="@+id/btn_6_1"
+                            android:onClick="Clic"
+                            android:layout_width="200dp"
+                            android:layout_height="200dp"
+                            android:layout_margin="8dp"
+                            android:backgroundTint="#2000BCD4"
+                            android:clickable="true"
+                            android:elevation="10dp"
+                            android:focusable="true"
+                            android:foreground="?selectableItemBackground"
+                            app:cardCornerRadius="50dp">
+
+                            <ImageView
+                                android:layout_width="200dp"
+                                android:layout_height="150dp"
+                                android:src="@drawable/ming_tepa"
+                                android:scaleType="centerCrop"/>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center|bottom"
+                                android:gravity="center"
+                                android:text="Mingtepa"
+                                android:textColor="@color/white"
+                                android:textSize="20sp"
+                                android:textStyle="italic" />
+                        </com.google.android.material.card.MaterialCardView>
+
+                        <com.google.android.material.card.MaterialCardView
+                            android:id="@+id/btn_6_2"
+                            android:onClick="Clic"
+                            android:layout_width="200dp"
+                            android:layout_height="200dp"
+                            android:layout_margin="8dp"
+                            android:backgroundTint="#2000BCD4"
+                            android:clickable="true"
+                            android:elevation="10dp"
+                            android:focusable="true"
+                            android:foreground="?selectableItemBackground"
+                            app:cardCornerRadius="50dp">
+
+                            <ImageView
+                                android:layout_width="200dp"
+                                android:layout_height="150dp"
+                                android:src="@drawable/imom_ota"
+                                android:scaleType="centerCrop"/>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center|bottom"
+                                android:gravity="center"
+                                android:text="Imom Ota"
+                                android:textColor="@color/white"
+                                android:textSize="20sp"
+                                android:textStyle="italic" />
+                        </com.google.android.material.card.MaterialCardView>
+
+                        <com.google.android.material.card.MaterialCardView
+                            android:id="@+id/btn_6_3"
+                            android:onClick="Clic"
+                            android:layout_width="200dp"
+                            android:layout_height="200dp"
+                            android:layout_margin="8dp"
+                            android:backgroundTint="#2000BCD4"
+                            android:clickable="true"
+                            android:elevation="10dp"
+                            android:focusable="true"
+                            android:foreground="?selectableItemBackground"
+                            app:cardCornerRadius="50dp">
+
+                            <ImageView
+                                android:layout_width="200dp"
+                                android:layout_height="150dp"
+                                android:src="@drawable/xonabod"
+                                android:scaleType="centerCrop"/>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center|bottom"
+                                android:gravity="center"
+                                android:text="Xonobod"
+                                android:textColor="@color/white"
+                                android:textSize="20sp"
+                                android:textStyle="italic" />
+                        </com.google.android.material.card.MaterialCardView>
+
+                        <com.google.android.material.card.MaterialCardView
+                            android:id="@+id/btn_6_4"
+                            android:onClick="Clic"
+                            android:layout_width="200dp"
+                            android:layout_height="200dp"
+                            android:layout_margin="8dp"
+                            android:backgroundTint="#2000BCD4"
+                            android:clickable="true"
+                            android:elevation="10dp"
+                            android:focusable="true"
+                            android:foreground="?selectableItemBackground"
+                            app:cardCornerRadius="50dp">
+
+                            <ImageView
+                                android:layout_width="200dp"
+                                android:layout_height="150dp"
+                                android:src="@drawable/jome"
+                                android:scaleType="centerCrop"/>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center|bottom"
+                                android:gravity="center"
+                                android:text="JomeMe`mori"
+                                android:textColor="@color/white"
+                                android:textSize="20sp"
+                                android:textStyle="italic" />
+                        </com.google.android.material.card.MaterialCardView>
+
+                        <com.google.android.material.card.MaterialCardView
+                            android:id="@+id/btn_6_5"
+                            android:onClick="Clic"
+                            android:layout_width="200dp"
+                            android:layout_height="200dp"
+                            android:layout_margin="8dp"
+                            android:backgroundTint="#2000BCD4"
+                            android:clickable="true"
+                            android:elevation="10dp"
+                            android:focusable="true"
+                            android:foreground="?selectableItemBackground"
+                            app:cardCornerRadius="50dp">
+
+                            <ImageView
+                                android:layout_width="200dp"
+                                android:layout_height="150dp"
+                                android:src="@drawable/qutayba_ibn_muslim"
+                                android:scaleType="centerCrop"/>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center|bottom"
+                                android:gravity="center"
+                                android:text="Qutayba  ibn Muslim"
+                                android:textColor="@color/white"
+                                android:textSize="20sp"
+                                android:textStyle="italic" />
+                        </com.google.android.material.card.MaterialCardView>
+
+                        <com.google.android.material.card.MaterialCardView
+                            android:id="@+id/btn_6_6"
+                            android:onClick="Clic"
+                            android:layout_width="200dp"
+                            android:layout_height="200dp"
+                            android:layout_margin="8dp"
+                            android:backgroundTint="#2000BCD4"
+                            android:clickable="true"
+                            android:elevation="10dp"
+                            android:focusable="true"
+                            android:foreground="?selectableItemBackground"
+                            app:cardCornerRadius="50dp">
+
+                            <ImageView
+                                android:layout_width="200dp"
+                                android:layout_height="150dp"
+                                android:src="@drawable/qadimiy_qala"
+                                android:scaleType="centerCrop"/>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center|bottom"
+                                android:gravity="center"
+                                android:text="Qadimiy Qalʼa"
+                                android:textColor="@color/white"
+                                android:textSize="20sp"
+                                android:textStyle="italic" />
+                        </com.google.android.material.card.MaterialCardView>
+
+                    </LinearLayout>
+                </HorizontalScrollView>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/fond"
+                android:backgroundTint="#AD94A8A6"
+                android:orientation="vertical"
+                android:paddingStart="20dp"
+                android:paddingTop="12dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Farg`ona"
+                    android:textColor="@color/black"
+                    android:textStyle="italic"
+                    android:textSize="20sp"/>
+
+                <HorizontalScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dp"
+                    android:backgroundTint="#8ACFF4FF"
+                    android:padding="4dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="12dp"
+                        android:orientation="horizontal">
+
+                        <com.google.android.material.card.MaterialCardView
+                            android:id="@+id/btn_7_1"
+                            android:onClick="Clic"
+                            android:layout_width="200dp"
+                            android:layout_height="200dp"
+                            android:layout_margin="8dp"
+                            android:backgroundTint="#2000BCD4"
+                            android:clickable="true"
+                            android:elevation="10dp"
+                            android:focusable="true"
+                            android:foreground="?selectableItemBackground"
+                            app:cardCornerRadius="50dp">
+
+                            <ImageView
+                                android:layout_width="200dp"
+                                android:layout_height="150dp"
+                                android:src="@drawable/margilon"
+                                android:scaleType="centerCrop"/>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center|bottom"
+                                android:gravity="center"
+                                android:text="MARG`ILON"
+                                android:textColor="@color/white"
+                                android:textSize="20sp"
+                                android:textStyle="italic" />
+                        </com.google.android.material.card.MaterialCardView>
+
+                        <com.google.android.material.card.MaterialCardView
+                            android:id="@+id/btn_7_2"
+                            android:onClick="Clic"
+                            android:layout_width="200dp"
+                            android:layout_height="200dp"
+                            android:layout_margin="8dp"
+                            android:backgroundTint="#2000BCD4"
+                            android:clickable="true"
+                            android:elevation="10dp"
+                            android:focusable="true"
+                            android:foreground="?selectableItemBackground"
+                            app:cardCornerRadius="50dp">
+
+                            <ImageView
+                                android:layout_width="200dp"
+                                android:layout_height="150dp"
+                                android:src="@drawable/qoqon"
+                                android:scaleType="centerCrop"/>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center|bottom"
+                                android:gravity="center"
+                                android:text="QO`QON"
+                                android:textColor="@color/white"
+                                android:textSize="20sp"
+                                android:textStyle="italic" />
+                        </com.google.android.material.card.MaterialCardView>
+
+                        <com.google.android.material.card.MaterialCardView
+                            android:id="@+id/btn_7_3"
+                            android:onClick="Clic"
+                            android:layout_width="200dp"
+                            android:layout_height="200dp"
+                            android:layout_margin="8dp"
+                            android:backgroundTint="#2000BCD4"
+                            android:clickable="true"
+                            android:elevation="10dp"
+                            android:focusable="true"
+                            android:foreground="?selectableItemBackground"
+                            app:cardCornerRadius="50dp">
+
+                            <ImageView
+                                android:layout_width="200dp"
+                                android:layout_height="150dp"
+                                android:src="@drawable/xudoyarxon_saroyi"
+                                android:scaleType="centerCrop"/>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center|bottom"
+                                android:gravity="center"
+                                android:text="XudoyarxonSaroyi"
+                                android:textColor="@color/white"
+                                android:textSize="20sp"
+                                android:textStyle="italic" />
+                        </com.google.android.material.card.MaterialCardView>
+
+                        <com.google.android.material.card.MaterialCardView
+                            android:id="@+id/btn_7_4"
+                            android:onClick="Clic"
+                            android:layout_width="200dp"
+                            android:layout_height="200dp"
+                            android:layout_margin="8dp"
+                            android:backgroundTint="#2000BCD4"
+                            android:clickable="true"
+                            android:elevation="10dp"
+                            android:focusable="true"
+                            android:foreground="?selectableItemBackground"
+                            app:cardCornerRadius="50dp">
+
+                            <ImageView
+                                android:layout_width="200dp"
+                                android:layout_height="150dp"
+                                android:src="@drawable/modarixon"
+                                android:scaleType="centerCrop"/>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center|bottom"
+                                android:gravity="center"
+                                android:text="MODARIXON MAQBARASI"
+                                android:textColor="@color/white"
+                                android:textSize="20sp"
+                                android:textStyle="italic" />
+                        </com.google.android.material.card.MaterialCardView>
+
+                        <com.google.android.material.card.MaterialCardView
+                            android:id="@+id/btn_7_5"
+                            android:onClick="Clic"
+                            android:layout_width="200dp"
+                            android:layout_height="200dp"
+                            android:layout_margin="8dp"
+                            android:backgroundTint="#2000BCD4"
+                            android:clickable="true"
+                            android:elevation="10dp"
+                            android:focusable="true"
+                            android:foreground="?selectableItemBackground"
+                            app:cardCornerRadius="50dp">
+
+                            <ImageView
+                                android:layout_width="200dp"
+                                android:layout_height="150dp"
+                                android:src="@drawable/quva"
+                                android:scaleType="centerCrop"/>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center|bottom"
+                                android:gravity="center"
+                                android:text="QUVA"
+                                android:textColor="@color/white"
+                                android:textSize="20sp"
+                                android:textStyle="italic" />
+                        </com.google.android.material.card.MaterialCardView>
+
+                        <com.google.android.material.card.MaterialCardView
+                            android:id="@+id/btn_7_6"
+                            android:onClick="Clic"
+                            android:layout_width="200dp"
+                            android:layout_height="200dp"
+                            android:layout_margin="8dp"
+                            android:backgroundTint="#2000BCD4"
+                            android:clickable="true"
+                            android:elevation="10dp"
+                            android:focusable="true"
+                            android:foreground="?selectableItemBackground"
+                            app:cardCornerRadius="50dp">
+
+                            <ImageView
+                                android:layout_width="200dp"
+                                android:layout_height="150dp"
+                                android:src="@drawable/shohimardon"
+                                android:scaleType="centerCrop"/>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center|bottom"
+                                android:gravity="center"
+                                android:text="SHOHIMARDON"
+                                android:textColor="@color/white"
+                                android:textSize="20sp"
+                                android:textStyle="italic" />
+                        </com.google.android.material.card.MaterialCardView>
+
+                    </LinearLayout>
+                </HorizontalScrollView>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/fond"
+                android:backgroundTint="#AD94A8A6"
+                android:orientation="vertical"
+                android:paddingStart="20dp"
+                android:layout_marginBottom="8dp"
+                android:layout_marginTop="8dp"
+                android:paddingTop="12dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Namangan"
+                    android:textColor="@color/black"
+                    android:textStyle="italic"
+                    android:textSize="20sp"/>
+
+                <HorizontalScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dp"
+                    android:backgroundTint="#8ACFF4FF"
+                    android:padding="4dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="12dp"
+                        android:orientation="horizontal">
+
+                        <com.google.android.material.card.MaterialCardView
+                            android:id="@+id/btn_8_1"
+                            android:onClick="Clic"
+                            android:layout_width="200dp"
+                            android:layout_height="200dp"
+                            android:layout_margin="8dp"
+                            android:backgroundTint="#2000BCD4"
+                            android:clickable="true"
+                            android:elevation="10dp"
+                            android:focusable="true"
+                            android:foreground="?selectableItemBackground"
+                            app:cardCornerRadius="50dp">
+
+                            <ImageView
+                                android:layout_width="200dp"
+                                android:layout_height="150dp"
+                                android:src="@drawable/sahoba"
+                                android:scaleType="centerCrop"/>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center|bottom"
+                                android:gravity="center"
+                                android:text="Axtam Saxoba"
+                                android:textColor="@color/white"
+                                android:textSize="20sp"
+                                android:textStyle="italic" />
+                        </com.google.android.material.card.MaterialCardView>
+
+                        <com.google.android.material.card.MaterialCardView
+                            android:id="@+id/btn_8_2"
+                            android:onClick="Clic"
+                            android:layout_width="200dp"
+                            android:layout_height="200dp"
+                            android:layout_margin="8dp"
+                            android:backgroundTint="#2000BCD4"
+                            android:clickable="true"
+                            android:elevation="10dp"
+                            android:focusable="true"
+                            android:foreground="?selectableItemBackground"
+                            app:cardCornerRadius="50dp">
+
+                            <ImageView
+                                android:layout_width="200dp"
+                                android:layout_height="150dp"
+                                android:src="@drawable/devon_buva"
+                                android:scaleType="centerCrop"/>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center|bottom"
+                                android:gravity="center"
+                                android:text="Devonabuva"
+                                android:textColor="@color/white"
+                                android:textSize="20sp"
+                                android:textStyle="italic" />
+                        </com.google.android.material.card.MaterialCardView>
+
+                        <com.google.android.material.card.MaterialCardView
+                            android:id="@+id/btn_8_3"
+                            android:onClick="Clic"
+                            android:layout_width="200dp"
+                            android:layout_height="200dp"
+                            android:layout_margin="8dp"
+                            android:backgroundTint="#2000BCD4"
+                            android:clickable="true"
+                            android:elevation="10dp"
+                            android:focusable="true"
+                            android:foreground="?selectableItemBackground"
+                            app:cardCornerRadius="50dp">
+
+                            <ImageView
+                                android:layout_width="200dp"
+                                android:layout_height="150dp"
+                                android:src="@drawable/bibi_ona"
+                                android:scaleType="centerCrop"/>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center|bottom"
+                                android:gravity="center"
+                                android:text=" Bibi Naima "
+                                android:textColor="@color/white"
+                                android:textSize="20sp"
+                                android:textStyle="italic" />
+                        </com.google.android.material.card.MaterialCardView>
+
+                    </LinearLayout>
+                </HorizontalScrollView>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/fond"
+                android:backgroundTint="#AD94A8A6"
+                android:orientation="vertical"
+                android:paddingStart="20dp"
+                android:paddingTop="12dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Navoiy"
+                    android:textColor="@color/black"
+                    android:textStyle="italic"
+                    android:textSize="20sp"/>
+
+                <HorizontalScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dp"
+                    android:backgroundTint="#8ACFF4FF"
+                    android:padding="4dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="12dp"
+                        android:orientation="horizontal">
+
+                        <com.google.android.material.card.MaterialCardView
+                            android:id="@+id/btn_9_1"
+                            android:onClick="Clic"
+                            android:layout_width="200dp"
+                            android:layout_height="200dp"
+                            android:layout_margin="8dp"
+                            android:backgroundTint="#2000BCD4"
+                            android:clickable="true"
+                            android:elevation="10dp"
+                            android:focusable="true"
+                            android:foreground="?selectableItemBackground"
+                            app:cardCornerRadius="50dp">
+
+                            <ImageView
+                                android:layout_width="200dp"
+                                android:layout_height="150dp"
+                                android:src="@drawable/mir_said"
+                                android:scaleType="centerCrop"/>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center|bottom"
+                                android:gravity="center"
+                                android:text="MirSaidBahrom"
+                                android:textColor="@color/white"
+                                android:textSize="20sp"
+                                android:textStyle="italic" />
+                        </com.google.android.material.card.MaterialCardView>
+
+                        <com.google.android.material.card.MaterialCardView
+                            android:id="@+id/btn_9_2"
+                            android:onClick="Clic"
+                            android:layout_width="200dp"
+                            android:layout_height="200dp"
+                            android:layout_margin="8dp"
+                            android:backgroundTint="#2000BCD4"
+                            android:clickable="true"
+                            android:elevation="10dp"
+                            android:focusable="true"
+                            android:foreground="?selectableItemBackground"
+                            app:cardCornerRadius="50dp">
+
+                            <ImageView
+                                android:layout_width="200dp"
+                                android:layout_height="150dp"
+                                android:src="@drawable/qosimshayx"
+                                android:scaleType="centerCrop"/>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center|bottom"
+                                android:gravity="center"
+                                android:text="QosimShayx"
+                                android:textColor="@color/white"
+                                android:textSize="20sp"
+                                android:textStyle="italic" />
+                        </com.google.android.material.card.MaterialCardView>
+
+                        <com.google.android.material.card.MaterialCardView
+                            android:id="@+id/btn_9_3"
+                            android:onClick="Clic"
+                            android:layout_width="200dp"
+                            android:layout_height="200dp"
+                            android:layout_margin="8dp"
+                            android:backgroundTint="#2000BCD4"
+                            android:clickable="true"
+                            android:elevation="10dp"
+                            android:focusable="true"
+                            android:foreground="?selectableItemBackground"
+                            app:cardCornerRadius="50dp">
+
+                            <ImageView
+                                android:layout_width="200dp"
+                                android:layout_height="150dp"
+                                android:src="@drawable/chashma"
+                                android:scaleType="centerCrop"/>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center|bottom"
+                                android:gravity="center"
+                                android:text="Chashma"
+                                android:textColor="@color/white"
+                                android:textSize="20sp"
+                                android:textStyle="italic" />
+                        </com.google.android.material.card.MaterialCardView>
+                    </LinearLayout>
+                </HorizontalScrollView>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/fond"
+                android:backgroundTint="#AD94A8A6"
+                android:orientation="vertical"
+                android:paddingStart="20dp"
+                android:layout_marginBottom="8dp"
+                android:layout_marginTop="8dp"
+                android:paddingTop="12dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Jizzax"
+                    android:textColor="@color/black"
+                    android:textStyle="italic"
+                    android:textSize="20sp"/>
+
+                <HorizontalScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dp"
+                    android:backgroundTint="#8ACFF4FF"
+                    android:padding="4dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="12dp"
+                        android:orientation="horizontal">
+
+                        <com.google.android.material.card.MaterialCardView
+                            android:id="@+id/btn_10_1"
+                            android:onClick="Clic"
+                            android:layout_width="200dp"
+                            android:layout_height="200dp"
+                            android:layout_margin="8dp"
+                            android:backgroundTint="#2000BCD4"
+                            android:clickable="true"
+                            android:elevation="10dp"
+                            android:focusable="true"
+                            android:foreground="?selectableItemBackground"
+                            app:cardCornerRadius="50dp">
+
+                            <ImageView
+                                android:layout_width="200dp"
+                                android:layout_height="150dp"
+                                android:src="@drawable/zomin"
+                                android:scaleType="centerCrop"/>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center|bottom"
+                                android:gravity="center"
+                                android:text="Zomin"
+                                android:textColor="@color/white"
+                                android:textSize="20sp"
+                                android:textStyle="italic" />
+                        </com.google.android.material.card.MaterialCardView>
+
+                        <com.google.android.material.card.MaterialCardView
+                            android:id="@+id/btn_10_2"
+                            android:onClick="Clic"
+                            android:layout_width="200dp"
+                            android:layout_height="200dp"
+                            android:layout_margin="8dp"
+                            android:backgroundTint="#2000BCD4"
+                            android:clickable="true"
+                            android:elevation="10dp"
+                            android:focusable="true"
+                            android:foreground="?selectableItemBackground"
+                            app:cardCornerRadius="50dp">
+
+                            <ImageView
+                                android:layout_width="200dp"
+                                android:layout_height="150dp"
+                                android:src="@drawable/nurota"
+                                android:scaleType="centerCrop"/>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center|bottom"
+                                android:gravity="center"
+                                android:text="Nurota"
+                                android:textColor="@color/white"
+                                android:textSize="20sp"
+                                android:textStyle="italic" />
+                        </com.google.android.material.card.MaterialCardView>
+
+                        <com.google.android.material.card.MaterialCardView
+                            android:id="@+id/btn_10_3"
+                            android:onClick="Clic"
+                            android:layout_width="200dp"
+                            android:layout_height="200dp"
+                            android:layout_margin="8dp"
+                            android:backgroundTint="#2000BCD4"
+                            android:clickable="true"
+                            android:elevation="10dp"
+                            android:focusable="true"
+                            android:foreground="?selectableItemBackground"
+                            app:cardCornerRadius="50dp">
+
+                            <ImageView
+                                android:layout_width="200dp"
+                                android:layout_height="150dp"
+                                android:src="@drawable/majrumning"
+                                android:scaleType="centerCrop"/>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center|bottom"
+                                android:gravity="center"
+                                android:text="Majrumning"
+                                android:textColor="@color/white"
+                                android:textSize="20sp"
+                                android:textStyle="italic" />
+                        </com.google.android.material.card.MaterialCardView>
+
+                        <com.google.android.material.card.MaterialCardView
+                            android:id="@+id/btn_10_4"
+                            android:onClick="Clic"
+                            android:layout_width="200dp"
+                            android:layout_height="200dp"
+                            android:layout_margin="8dp"
+                            android:backgroundTint="#2000BCD4"
+                            android:clickable="true"
+                            android:elevation="10dp"
+                            android:focusable="true"
+                            android:foreground="?selectableItemBackground"
+                            app:cardCornerRadius="50dp">
+
+                            <ImageView
+                                android:layout_width="200dp"
+                                android:layout_height="150dp"
+                                android:src="@drawable/parpi_ota"
+                                android:scaleType="centerCrop"/>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center|bottom"
+                                android:gravity="center"
+                                android:text="Parpi Oyim"
+                                android:textColor="@color/white"
+                                android:textSize="20sp"
+                                android:textStyle="italic" />
+                        </com.google.android.material.card.MaterialCardView>
+
+                        <com.google.android.material.card.MaterialCardView
+                            android:id="@+id/btn_10_5"
+                            android:onClick="Clic"
+                            android:layout_width="200dp"
+                            android:layout_height="200dp"
+                            android:layout_margin="8dp"
+                            android:backgroundTint="#2000BCD4"
+                            android:clickable="true"
+                            android:elevation="10dp"
+                            android:focusable="true"
+                            android:foreground="?selectableItemBackground"
+                            app:cardCornerRadius="50dp">
+
+                            <ImageView
+                                android:layout_width="200dp"
+                                android:layout_height="150dp"
+                                android:src="@drawable/ibn_vaqqos"
+                                android:scaleType="centerCrop"/>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center|bottom"
+                                android:gravity="center"
+                                android:text="Said ibn Abu Vaqqos"
+                                android:textColor="@color/white"
+                                android:textSize="20sp"
+                                android:textStyle="italic" />
+                        </com.google.android.material.card.MaterialCardView>
+
+                        <com.google.android.material.card.MaterialCardView
+                            android:id="@+id/btn_10_6"
+                            android:onClick="Clic"
+                            android:layout_width="200dp"
+                            android:layout_height="200dp"
+                            android:layout_margin="8dp"
+                            android:backgroundTint="#2000BCD4"
+                            android:clickable="true"
+                            android:elevation="10dp"
+                            android:focusable="true"
+                            android:foreground="?selectableItemBackground"
+                            app:cardCornerRadius="50dp">
+
+                            <ImageView
+                                android:layout_width="200dp"
+                                android:layout_height="150dp"
+                                android:src="@drawable/temir_darvoza"
+                                android:scaleType="centerCrop"/>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center|bottom"
+                                android:gravity="center"
+                                android:text="Temir Darvoza"
+                                android:textColor="@color/white"
+                                android:textSize="20sp"
+                                android:textStyle="italic" />
+                        </com.google.android.material.card.MaterialCardView>
+
+                    </LinearLayout>
+                </HorizontalScrollView>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/fond"
+                android:backgroundTint="#AD94A8A6"
+                android:orientation="vertical"
+                android:paddingStart="20dp"
+                android:layout_marginBottom="8dp"
+                android:paddingTop="12dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Qashqadaryo"
+                    android:textColor="@color/black"
+                    android:textStyle="italic"
+                    android:textSize="20sp"/>
+
+                <HorizontalScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dp"
+                    android:backgroundTint="#8ACFF4FF"
+                    android:padding="4dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="12dp"
+                        android:orientation="horizontal">
+
+                        <com.google.android.material.card.MaterialCardView
+                            android:id="@+id/btn_11_1"
+                            android:onClick="Clic"
+                            android:layout_width="200dp"
+                            android:layout_height="200dp"
+                            android:layout_margin="8dp"
+                            android:backgroundTint="#2000BCD4"
+                            android:clickable="true"
+                            android:elevation="10dp"
+                            android:focusable="true"
+                            android:foreground="?selectableItemBackground"
+                            app:cardCornerRadius="50dp">
+
+                            <ImageView
+                                android:layout_width="200dp"
+                                android:layout_height="150dp"
+                                android:src="@drawable/oqsaroy"
+                                android:scaleType="centerCrop"/>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center|bottom"
+                                android:gravity="center"
+                                android:text="Oqsaroy"
+                                android:textColor="@color/white"
+                                android:textSize="20sp"
+                                android:textStyle="italic" />
+                        </com.google.android.material.card.MaterialCardView>
+
+                        <com.google.android.material.card.MaterialCardView
+                            android:id="@+id/btn_11_2"
+                            android:onClick="Clic"
+                            android:layout_width="200dp"
+                            android:layout_height="200dp"
+                            android:layout_margin="8dp"
+                            android:backgroundTint="#2000BCD4"
+                            android:clickable="true"
+                            android:elevation="10dp"
+                            android:focusable="true"
+                            android:foreground="?selectableItemBackground"
+                            app:cardCornerRadius="50dp">
+
+                            <ImageView
+                                android:layout_width="200dp"
+                                android:layout_height="150dp"
+                                android:src="@drawable/langar"
+                                android:scaleType="centerCrop"/>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center|bottom"
+                                android:gravity="center"
+                                android:text="Langar ota"
+                                android:textColor="@color/white"
+                                android:textSize="20sp"
+                                android:textStyle="italic" />
+                        </com.google.android.material.card.MaterialCardView>
+
+                        <com.google.android.material.card.MaterialCardView
+                            android:id="@+id/btn_11_3"
+                            android:onClick="Clic"
+                            android:layout_width="200dp"
+                            android:layout_height="200dp"
+                            android:layout_margin="8dp"
+                            android:backgroundTint="#2000BCD4"
+                            android:clickable="true"
+                            android:elevation="10dp"
+                            android:focusable="true"
+                            android:foreground="?selectableItemBackground"
+                            app:cardCornerRadius="50dp">
+
+                            <ImageView
+                                android:layout_width="200dp"
+                                android:layout_height="150dp"
+                                android:src="@drawable/gori"
+                                android:scaleType="centerCrop"/>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center|bottom"
+                                android:gravity="center"
+                                android:text="AmirTemurg`ori "
+                                android:textColor="@color/white"
+                                android:textSize="20sp"
+                                android:textStyle="italic" />
+                        </com.google.android.material.card.MaterialCardView>
+
+                        <com.google.android.material.card.MaterialCardView
+                            android:id="@+id/btn_11_4"
+                            android:onClick="Clic"
+                            android:layout_width="200dp"
+                            android:layout_height="200dp"
+                            android:layout_margin="8dp"
+                            android:backgroundTint="#2000BCD4"
+                            android:clickable="true"
+                            android:elevation="10dp"
+                            android:focusable="true"
+                            android:foreground="?selectableItemBackground"
+                            app:cardCornerRadius="50dp">
+
+                            <ImageView
+                                android:layout_width="200dp"
+                                android:layout_height="150dp"
+                                android:src="@drawable/suvtushar"
+                                android:scaleType="centerCrop"/>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center|bottom"
+                                android:gravity="center"
+                                android:text="Suvtushar"
+                                android:textColor="@color/white"
+                                android:textSize="20sp"
+                                android:textStyle="italic" />
+                        </com.google.android.material.card.MaterialCardView>
+
+                        <com.google.android.material.card.MaterialCardView
+                            android:id="@+id/btn_11_5"
+                            android:onClick="Clic"
+                            android:layout_width="200dp"
+                            android:layout_height="200dp"
+                            android:layout_margin="8dp"
+                            android:backgroundTint="#2000BCD4"
+                            android:clickable="true"
+                            android:elevation="10dp"
+                            android:focusable="true"
+                            android:foreground="?selectableItemBackground"
+                            app:cardCornerRadius="50dp">
+
+                            <ImageView
+                                android:layout_width="200dp"
+                                android:layout_height="150dp"
+                                android:src="@drawable/tohir_zuhra"
+                                android:scaleType="centerCrop"/>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center|bottom"
+                                android:gravity="center"
+                                android:text="Tohir-Zuhra"
+                                android:textColor="@color/white"
+                                android:textSize="20sp"
+                                android:textStyle="italic" />
+                        </com.google.android.material.card.MaterialCardView>
+
+                        <com.google.android.material.card.MaterialCardView
+                            android:id="@+id/btn_11_6"
+                            android:onClick="Clic"
+                            android:layout_width="200dp"
+                            android:layout_height="200dp"
+                            android:layout_margin="8dp"
+                            android:backgroundTint="#2000BCD4"
+                            android:clickable="true"
+                            android:elevation="10dp"
+                            android:focusable="true"
+                            android:foreground="?selectableItemBackground"
+                            app:cardCornerRadius="50dp">
+
+                            <ImageView
+                                android:layout_width="200dp"
+                                android:layout_height="150dp"
+                                android:src="@drawable/lochin"
+                                android:scaleType="centerCrop"/>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center|bottom"
+                                android:gravity="center"
+                                android:text="Lochin"
+                                android:textColor="@color/white"
+                                android:textSize="20sp"
+                                android:textStyle="italic" />
+                        </com.google.android.material.card.MaterialCardView>
+
+                    </LinearLayout>
+                </HorizontalScrollView>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/fond"
+                android:backgroundTint="#AD94A8A6"
+                android:orientation="vertical"
+                android:paddingStart="20dp"
+                android:paddingTop="12dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Qoraqalpog`iston"
+                    android:textColor="@color/black"
+                    android:textStyle="italic"
+                    android:textSize="20sp"/>
+
+                <HorizontalScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dp"
+                    android:backgroundTint="#8ACFF4FF"
+                    android:padding="4dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="12dp"
+                        android:orientation="horizontal">
+
+                        <com.google.android.material.card.MaterialCardView
+                            android:id="@+id/btn_12_1"
+                            android:onClick="Clic"
+                            android:layout_width="200dp"
+                            android:layout_height="200dp"
+                            android:layout_margin="8dp"
+                            android:backgroundTint="#2000BCD4"
+                            android:clickable="true"
+                            android:elevation="10dp"
+                            android:focusable="true"
+                            android:foreground="?selectableItemBackground"
+                            app:cardCornerRadius="50dp">
+
+                            <ImageView
+                                android:layout_width="200dp"
+                                android:layout_height="150dp"
+                                android:src="@drawable/abdirev_maqbarasi"
+                                android:scaleType="centerCrop"/>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center|bottom"
+                                android:gravity="center"
+                                android:text="Chardjau Abdirev maqbarasi"
+                                android:textColor="@color/white"
+                                android:textSize="20sp"
+                                android:textStyle="italic" />
+                        </com.google.android.material.card.MaterialCardView>
+
+                        <com.google.android.material.card.MaterialCardView
+                            android:id="@+id/btn_12_2"
+                            android:onClick="Clic"
+                            android:layout_width="200dp"
+                            android:layout_height="200dp"
+                            android:layout_margin="8dp"
+                            android:backgroundTint="#2000BCD4"
+                            android:clickable="true"
+                            android:elevation="10dp"
+                            android:focusable="true"
+                            android:foreground="?selectableItemBackground"
+                            app:cardCornerRadius="50dp">
+
+                            <ImageView
+                                android:layout_width="200dp"
+                                android:layout_height="150dp"
+                                android:src="@drawable/teaplig"
+                                android:scaleType="centerCrop"/>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center|bottom"
+                                android:gravity="center"
+                                android:text="Besh tubatepaligi"
+                                android:textColor="@color/white"
+                                android:textSize="20sp"
+                                android:textStyle="italic" />
+                        </com.google.android.material.card.MaterialCardView>
+
+                        <com.google.android.material.card.MaterialCardView
+                            android:id="@+id/btn_12_3"
+                            android:onClick="Clic"
+                            android:layout_width="200dp"
+                            android:layout_height="200dp"
+                            android:layout_margin="8dp"
+                            android:backgroundTint="#2000BCD4"
+                            android:clickable="true"
+                            android:elevation="10dp"
+                            android:focusable="true"
+                            android:foreground="?selectableItemBackground"
+                            app:cardCornerRadius="50dp">
+
+                            <ImageView
+                                android:layout_width="200dp"
+                                android:layout_height="150dp"
+                                android:src="@drawable/xakim"
+                                android:scaleType="centerCrop"/>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center|bottom"
+                                android:gravity="center"
+                                android:text="Xakim ota maqbarasi"
+                                android:textColor="@color/white"
+                                android:textSize="20sp"
+                                android:textStyle="italic" />
+                        </com.google.android.material.card.MaterialCardView>
+
+                        <com.google.android.material.card.MaterialCardView
+                            android:id="@+id/btn_12_4"
+                            android:onClick="Clic"
+                            android:layout_width="200dp"
+                            android:layout_height="200dp"
+                            android:layout_margin="8dp"
+                            android:backgroundTint="#2000BCD4"
+                            android:clickable="true"
+                            android:elevation="10dp"
+                            android:focusable="true"
+                            android:foreground="?selectableItemBackground"
+                            app:cardCornerRadius="50dp">
+
+                            <ImageView
+                                android:layout_width="200dp"
+                                android:layout_height="150dp"
+                                android:src="@drawable/madamin"
+                                android:scaleType="centerCrop"/>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center|bottom"
+                                android:gravity="center"
+                                android:text="Madamin Xan maqbarasi"
+                                android:textColor="@color/white"
+                                android:textSize="20sp"
+                                android:textStyle="italic" />
+                        </com.google.android.material.card.MaterialCardView>
+
+                        <com.google.android.material.card.MaterialCardView
+                            android:id="@+id/btn_12_5"
+                            android:onClick="Clic"
+                            android:layout_width="200dp"
+                            android:layout_height="200dp"
+                            android:layout_margin="8dp"
+                            android:backgroundTint="#2000BCD4"
+                            android:clickable="true"
+                            android:elevation="10dp"
+                            android:focusable="true"
+                            android:foreground="?selectableItemBackground"
+                            app:cardCornerRadius="50dp">
+
+                            <ImageView
+                                android:layout_width="200dp"
+                                android:layout_height="150dp"
+                                android:src="@drawable/qirqiz"
+                                android:scaleType="centerCrop"/>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center|bottom"
+                                android:gravity="center"
+                                android:text="Qirqqizqal’a"
+                                android:textColor="@color/white"
+                                android:textSize="20sp"
+                                android:textStyle="italic" />
+                        </com.google.android.material.card.MaterialCardView>
+
+                        <com.google.android.material.card.MaterialCardView
+                            android:id="@+id/btn_12_6"
+                            android:onClick="Clic"
+                            android:layout_width="200dp"
+                            android:layout_height="200dp"
+                            android:layout_margin="8dp"
+                            android:backgroundTint="#2000BCD4"
+                            android:clickable="true"
+                            android:elevation="10dp"
+                            android:focusable="true"
+                            android:foreground="?selectableItemBackground"
+                            app:cardCornerRadius="50dp">
+
+                            <ImageView
+                                android:layout_width="200dp"
+                                android:layout_height="150dp"
+                                android:src="@drawable/urgaqala"
+                                android:scaleType="centerCrop"/>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center|bottom"
+                                android:gravity="center"
+                                android:text="Urgaqal’a"
+                                android:textColor="@color/white"
+                                android:textSize="20sp"
+                                android:textStyle="italic" />
+                        </com.google.android.material.card.MaterialCardView>
+
+                        <com.google.android.material.card.MaterialCardView
+                            android:id="@+id/btn_12_7"
+                            android:onClick="Clic"
+                            android:layout_width="200dp"
+                            android:layout_height="200dp"
+                            android:layout_margin="8dp"
+                            android:backgroundTint="#2000BCD4"
+                            android:clickable="true"
+                            android:elevation="10dp"
+                            android:focusable="true"
+                            android:foreground="?selectableItemBackground"
+                            app:cardCornerRadius="50dp">
+
+                            <ImageView
+                                android:layout_width="200dp"
+                                android:layout_height="150dp"
+                                android:src="@drawable/angkaqala"
+                                android:scaleType="centerCrop"/>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center|bottom"
+                                android:gravity="center"
+                                android:text="Angka qal’a"
+                                android:textColor="@color/white"
+                                android:textSize="20sp"
+                                android:textStyle="italic" />
+                        </com.google.android.material.card.MaterialCardView>
+                    </LinearLayout>
+                </HorizontalScrollView>
+
+
+            </LinearLayout>
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>
